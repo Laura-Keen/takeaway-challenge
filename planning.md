@@ -1,4 +1,4 @@
-#Planning 
+# Planning 
 
 ### User Story 1
 
@@ -6,16 +6,17 @@
   So that I can check if I want to order something
   I would like to see a list of dishes with prices
 
-  Nouns: customer, dishes, prices
-  Verbs: check menu, see list
+  *Nouns*: customer, dishes, prices
 
-  Class --> Menu
+  *Verbs*: check menu, see list
 
-  Objects:
+  *Class* --> Menu
+
+  *Objects:*
   - Dishes
   - Prices
 
-  Messages:
+  *Messages:*
   - Check menu --> Gives a list of dishes and prices
 
 ### User Story 2
@@ -24,16 +25,17 @@
   So that I can order the meal I want
   I would like to be able to select some number of several available dishes
 
-  Nouns: meal, dishes
-  Verbs: order, select
+  *Nouns*: meal, dishes
 
-  Class --> Basket
+  *Verbs*: order, select
 
-  Objects: 
+  *Class* --> Basket
+
+  *Objects:* 
   - Order (meal)
   - Dishes
 
-  Messages:
+  *Messages:*
   - Select dish --> Adds dish to order
 
   ### User Story 3
@@ -42,16 +44,17 @@
   So that I can verify that my order is correct
   I would like to check that the total I have been given matches the sum of the various dishes in my order
 
-  Nouns: order, total
-  Verbs: verify order, check total, sum of dishes
+  *Nouns*: order, total
 
-  Class --> Basket
+  *Verbs*: verify order, check total, sum of dishes
+
+  *Class* --> Basket
  
-  Objects: 
+  *Objects:* 
   - My order
   - Total
 
-  Messages:
+  *Messages:*
   - Verify order - check the total given matches sum of items
   - Sum - add up price of all items ordered
 
@@ -61,17 +64,18 @@
   So that I am reassured that my order will be delivered on time
   I would like to receive a text such as "Thank you! Your order was placed and will be delivered before 18:52" after I have ordered
 
-  Nouns: order, time, text
-  Verbs: delivered, receive 
+  *Nouns*: order, time, text
+  
+  *Verbs*: delivered, receive 
 
-  Class --> Text
+  *Class* --> Text
 
-  Objects: 
+  *Objects:* 
   - My order
   - Expected time
   - Text
 
-  Messages:
+  *Messages:*
   - Send text to confirm delivery and time
   - Time - saves delivery time for the order
 
