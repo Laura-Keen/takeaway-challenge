@@ -8,7 +8,7 @@ class Menu
   end 
 
   def view
-    @dishes.each { |dish, price| puts "you have ordered #{dish}, £#{price}"}
+    @dishes.map { |dish, price| puts "you have ordered #{dish}, £#{price}"}
   end
 
 end
